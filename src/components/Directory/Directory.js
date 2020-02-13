@@ -52,10 +52,10 @@ class Directory extends React.Component {
     return (
       <div className='directory'>
         {
-          sections.map(({ id, ...sectionsProps }) => (
+          sections.map(({ id, ...sectionProps }) => (
             <MenuItem 
               key={id} 
-              {...sectionsProps}
+              {...sectionProps}
             />
           ))
         }
